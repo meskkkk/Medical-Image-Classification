@@ -3,4 +3,10 @@ uvicorn
 python-multipart
 pillow
 numpy
-tensorflow-cpu==<2.20.0>
+tensorflow-cpu==2.20.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.11.0
+torchvision==0.26.0
+pandas
+scikit-learn
+matplotlib
